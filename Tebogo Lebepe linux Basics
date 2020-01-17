@@ -1,0 +1,71 @@
+
+Task 1
+
+1. ls = able to see list of folder that is available in the current directory.
+
+2. pwd = it shows the current working directory on the computer.shows the  full name of the directory path
+
+3.  mkdir = make the new active directory cd = changes the directory into workspace.
+
+4.ls = now showing the the folder that i just created which is workspace as my working folder.
+
+5. file created using touch = readme.txt.
+
+6. files changed using cp readme.txt changelog.txt commnad.
+
+Task 2 
+
+1. Empty file is created using  = Touch exercize.txt
+   file is moved to /tmp directory using  =mv ezercize.txt
+   file deleted using= rm exercize.txt.
+
+Task 3
+
+1. files created using the = touch umuzi.txt recruit.txt cohort.txt in home directoty.
+
+2. use vi command to open the file and press i to allow the follow editable and press escape to stop the file from editing and press shift+culumn to save and press wq to go back to the terminal.
+
+3. cat recruit.txt umuzi.txt cohort.txt.
+
+4. touch summary.txt for new file
+   cat recruit.txt umuzi.txt cohort.txt > summary.txt.
+
+5. echo "The End" > summary.
+
+Task 4
+
+1. locate umuzi.txt.
+2. locate -b '\umuzi.txt' > search_results.txt.
+
+Task 5
+
+1.cd Documents to go to Documents directory.
+   touch pad.txt 
+
+2. cd Desktop to go to Desktop directory.
+   
+3. ~/Desktop/  cp ~/Documents/pad.txt pad_copy.txt
+4.locate updatedb.
+
+5. cd -
+6.locate pad_copy.txt
+
+Task 6 
+
+1. find ./Downloads -name *.pdf
+2. mv ~/Downloads/'UMUZI HANDBOOK 2.0.pdf' ~/workspace
+
+3. find -daystart -ctime 0 -print
+
+Task 7
+1. nano my_bio.md
+
+2. ctrl + o to save
+   ctrl + x to close
+
+3. mkdir my_files
+   mv my_bio.md my_files
+
+
+
+
